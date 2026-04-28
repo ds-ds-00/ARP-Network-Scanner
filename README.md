@@ -28,7 +28,7 @@ A fast and lightweight Python-based network scanner that discovers devices on yo
 
 ```bash
 git clone https://github.com/ds-ds-00/ARP-Network-Scanner.git
-cd network-scanner
+cd ARP-Network-Scanner
 pip install -r requirements.txt
 ```
 
@@ -43,20 +43,21 @@ You must install **Npcap**:
 During installation:
 
 *  Enable WinPcap compatibility mode
-*  Run the script with Administrator privileges 
+*  Run the script with Administrator privileges
+*  Recommend os is linux 
 
 ---
 
 ## ▶️ Usage
 
 ```bash
-python network_scanner.py -i 192.168.1.0/24
+python network-scanner.py -i 192.168.1.0/24
 ```
 
 ### With output file:
 
 ```bash
-python network_scanner.py -i 192.168.1.0/24 -o results.txt
+python network-scanner.py -i 192.168.1.0/24 -o results.txt
 ```
 
 ---
